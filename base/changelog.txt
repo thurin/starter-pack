@@ -1,3 +1,9 @@
+0.47.04-r01
+    (preview/unstable; not yet recommended for new players)
+ - updated Dwarf Fortress to v0.47.04
+ - updated DFHack to 0.47.04-alpha0-200301002
+ - updated TwbT to 0.47.04-alpha0-200301002 (unofficial build by thurin)
+
 0.47.03-r02
     (preview/unstable; not yet recommended for new players)
  - updated DFHack to 0.47.03-beta1

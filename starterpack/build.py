@@ -399,9 +399,9 @@ def build_df():
             hack_size = os.path.getsize(paths.df('SDLhack.dll'))
             assert hack_size > 2 * real_size
             assert os.path.getsize(paths.df('SDL.dll')) == hack_size
-            if 'alpha' in hack.version.lower():
-                print('DFHack is an alpha version; disabling...')
-                shutil.copy(paths.df('SDLreal.dll'), paths.df('SDL.dll'))
+            # if 'alpha' in hack.version.lower():
+            #     print('DFHack is an alpha version; disabling...')
+            #     shutil.copy(paths.df('SDLreal.dll'), paths.df('SDL.dll'))
         # Check docs exist, and minimise size
         if os.path.isfile(paths.df('hack', 'docs', 'index.html')):
             shutil.rmtree(paths.df('hack', 'docs', '.doctrees'),
